@@ -4,7 +4,7 @@ if __name__ == '__main__':
 
     l = len(sys.argv)
     n = l - 1
-    v = (sys.argv)
+    v = sys.argv
 
     sum = 0
     for q in range(n):
