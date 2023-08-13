@@ -6,8 +6,7 @@ if __name__ == '__main__':
     n = l - 1
     v = (sys.argv)
 
-    v = 0
-    while n > 0:
-        v = v + n
-        n = n - 1
-    print("{}".format(v))
+    sum = 0
+    for q in range(n):
+        sum = sum + int(v[q + 1])
+    print("{}".format(sum))
