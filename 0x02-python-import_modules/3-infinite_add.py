@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-if __name__ == '__main__':
+if __name__ == "__main__":
     import sys
 
-    l = len(sys.argv)
-    n = l - 1
+    length = len(sys.argv)
+    n = length - 1
     v = sys.argv
 
     sum = 0
