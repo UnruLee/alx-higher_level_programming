@@ -2,8 +2,8 @@
 if __name__ == "__main__":
     import sys
 
-    l = len(sys.argv)
-    n = l - 1
+    length = len(sys.argv)
+    n = length - 1
     v = (sys.argv)
 
     if n == 0:
@@ -14,4 +14,4 @@ if __name__ == "__main__":
     else:
         print("{} arguments".format(n), end=':\n')
         for q in range(n):
-                print("{}: {}".format(q + 1, v[q + 1]))
+            print("{}: {}".format(q + 1, v[q + 1]))
